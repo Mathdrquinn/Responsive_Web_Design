@@ -1,0 +1,114 @@
+$heading_font: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+$backgroundshade: #344AFF;
+
+body {
+  margin:0px;
+  padding: 0px;
+  background-color:white;
+  width:100%;
+}
+
+header {
+  background-color:$backgroundshade;
+  background:
+    linear-gradient(
+      rgba(0, 0, 225, 0.50),
+      rgba(0, 0, 225, 0.50)
+    ),
+    url(../mimic_images/paddlers_convention.jpg);
+  background-repeat:no-repeat;
+  background-size: cover, 100%;
+  background-position:center bottom;
+  text-align:center;
+  width: 100%;
+  min-width:319px;
+  min-height:375px;
+  padding-left:25px;
+
+  .header_top {
+    display:block;
+    position: relative;
+    width:100%;
+    min-height:50px;
+    .header_top_left {
+      display:block;
+      float:left;
+      width:42%;
+      min-width:231px;
+      padding-top:10px;
+      padding-left:8%;
+      text-align:left;
+      font-family:$heading_font;
+      text-decoration:none;
+      img {
+        width:40px;
+        display:inline-block;
+        vertical-align:top;
+      }
+      a {
+        display:inline-block;
+        position:absolute;
+        padding-left:5px;
+        text-decoration:none;
+        color: black;
+        font-size: 20px;
+        font-family:$heading_font;
+        font-weight: normal;
+        vertical-align:top;
+        padding-top:15px;
+      }
+    }
+    .header_top_right {
+      float:left;
+      margin:0px;
+      width:42%;
+      padding-top:22px;
+      padding-right:8%;
+      text-align:right;
+      font-family:$heading_font;
+      text-decoration:none;
+      img {
+        width:12px;
+        display:inline-block;
+      }
+      a {
+        padding-left:5px;
+        text-decoration:none;
+        color: black;
+        font-size: 20px;
+        font-family:$heading_font;
+        font-weight: normal;
+      }
+    }
+  }
+
+    p {
+      display:none;
+      text-align:center;
+      padding-top:5px;
+      padding-bottom:5px;
+      img {
+        width:50px
+      }
+    }
+
+  .page_titles {
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    h1 {
+      color: white;
+      font-size: 80px;
+      font-family:$heading_font;
+      font-weight:normal;
+      margin-bottom:0;
+    }
+    h4 {
+      color: black;
+      font-size: 14px;
+      font-family:$heading_font;
+      font-weight: normal;
+      margin-top:-15px;
+    }
+  }
+}

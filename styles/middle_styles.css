@@ -1,0 +1,196 @@
+.middle {
+  border-bottom: 2px solid lightgrey;
+  width: 100%;
+  min-height: 800px;
+  text-align: center;
+  background-color: white; }
+  .middle .column_left {
+    display: inline-block;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+    vertical-align: top; }
+    .middle .column_left h2 {
+      color: darkblue;
+      font-size: 50px;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-weight: normal;
+      text-align: left;
+      margin: 0px auto; }
+    .middle .column_left .signature {
+      display: block;
+      position: relative;
+      text-align: left;
+      width: 100%;
+      margin: 0 auto; }
+      .middle .column_left .signature .small_headshot {
+        display: inline-block;
+        position: relative;
+        padding: 3px 0 0 0;
+        margin: 0px;
+        border-radius: 100%;
+        width: 25px; }
+      .middle .column_left .signature .sig_name {
+        display: inline-block;
+        position: relative;
+        text-align: left;
+        color: grey;
+        padding-top: 5px;
+        vertical-align: top;
+        text-decoration: none; }
+        .middle .column_left .signature .sig_name a {
+          color: blue;
+          display: inline-block;
+          position: relative;
+          font-size: 14px;
+          font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+          vertical-align: top;
+          text-decoration: none;
+          padding-top: 0px; }
+      .middle .column_left .signature .sig_date {
+        color: grey;
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        vertical-align: top;
+        text-decoration: underline;
+        padding-top: 4px; }
+    .middle .column_left p {
+      display: block;
+      position: relative;
+      text-align: left;
+      padding: 10px 20px 0 0;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      color: grey;
+      font-size: 15px; }
+      .middle .column_left p span a {
+        color: #4885E0;
+        display: inline-block;
+        position: relative;
+        font-size: 14px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        vertical-align: top;
+        padding: 0; }
+    .middle .column_left .quote {
+      display: block;
+      position: relative;
+      text-align: left;
+      padding: 10px 20px 10px 10px;
+      margin-left: 10px;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      color: grey;
+      font-size: 30px;
+      color: #4885E0;
+      border-left: 2px solid lightgrey; }
+    .middle .column_left .share_bar {
+      display: block;
+      position: relative;
+      vertical-align: top;
+      text-align: left;
+      margin: 0;
+      padding: 10px 0px; }
+      .middle .column_left .share_bar img {
+        width: 200px;
+        padding-right: 5%;
+        margin: 0px; }
+  .middle .column_right {
+    display: inline-block;
+    position: relative;
+    margin-right: 8%;
+    margin-top: 50px;
+    width: 21%;
+    margin-bottom: 50px;
+    text-align: left;
+    padding-left: 25px; }
+    .middle .column_right .author {
+      display: block;
+      position: relative;
+      width: 100%;
+      min-height: 100px;
+      text-align: center;
+      padding-bottom: 20px; }
+      .middle .column_right .author img {
+        border-radius: 100%;
+        width: 80px;
+        margin: 5px;
+        background-color: #0013FF; }
+      .middle .column_right .author .author_name {
+        display: block;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #003488;
+        font-size: 15px;
+        font-weight: normal; }
+      .middle .column_right .author .author_contact {
+        display: block;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #003488;
+        font-size: 15px;
+        font-weight: normal; }
+        .middle .column_right .author .author_contact a {
+          position: relative;
+          padding-top: 0px;
+          padding-bottom: 5px;
+          color: grey; }
+        .middle .column_right .author .author_contact .borderman {
+          padding-left: 5px;
+          padding-right: 5px;
+          margin-left: 5px;
+          margin-right: 5px;
+          border-left: 2px solid lightgrey;
+          border-right: 2px solid lightgrey; }
+    .middle .column_right .ad {
+      display: block;
+      position: relative;
+      width: 100%;
+      min-height: 150px;
+      text-align: right; }
+      .middle .column_right .ad .add_pic {
+        display: block;
+        position: relative;
+        width: 100%;
+        text-decoration: underline;
+        background-color: #0013FF; }
+        .middle .column_right .ad .add_pic .add_pic_pelican {
+          display: block;
+          position: relative;
+          width: 100%;
+          text-decoration: underline;
+          opacity: 0.6; }
+      .middle .column_right .ad .add_link {
+        display: block;
+        position: relative; }
+        .middle .column_right .ad .add_link a {
+          font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+          color: grey;
+          font-size: 12px;
+          display: block;
+          position: relative;
+          padding-top: 5px; }
+    .middle .column_right .side_section {
+      display: block;
+      position: relative;
+      width: 100%;
+      min-height: 150px;
+      text-align: left; }
+      .middle .column_right .side_section h4 {
+        position: relative;
+        padding: 30px 0px 10px 0;
+        margin: 0 0 0 0;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: #003488;
+        font-weight: normal; }
+      .middle .column_right .side_section .side_text {
+        display: block;
+        position: relative;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        color: grey;
+        font-size: 12px; }
+
+.blueface {
+  background-color: #0013FF; }
+
+.blueface:hover {
+  opacity: 1; }
